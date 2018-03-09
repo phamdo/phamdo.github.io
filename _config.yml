@@ -24,7 +24,7 @@ sass:
 url: "https://phamdo.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 title: Kaman Phamdo
-description: "Student at University of Maryland"
+description: "Personal Site"
 keywords: 'kaman, phamdo, university of maryland, software engineer, computer science, math'
 author:
   name: Kaman Phamdo
@@ -60,7 +60,13 @@ home:
 blog:
   cc_license: http://creativecommons.org/licenses/by-sa/4.0/ # A link to CC License of your choice.
   cc_license_image: /assets/images/theme/cc-by-sa.png # An image of your CC License. 
-  footer_content: A gem-based responsive simple texture styled <a href="http://jekyllrb.com/">Jekyll</a> theme.
+  footer_content: <p>I am currently a fourth-year student at University of Maryland studying Computer Science and Math. 
+      On campus, I am an undergraduate researcher and teaching assistant in the computer science department. 
+      Previously, I was an intern at JHU Applied Physics Lab and JPMorgan Chase.
+      After graduation, I will be working on research at UCLA's Institute for Pure and Applied Mathematics, 
+      and then starting my first "real job" as a software engineer in Pittsburgh, PA. 
+      My next goal is to get into grad school. 
+      I am passionate about journaling and documenting my experiences, which you can read about on my blog!</p>
 
 disqus:
   shortname: # e.g. yizeng

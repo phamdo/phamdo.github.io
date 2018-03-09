@@ -4,3 +4,6 @@ p {
     width: 75%;
 }
 
+#mobile {
+    display: none;
+}

@@ -25,7 +25,7 @@ url: "https://phamdo.github.io" # the base hostname & protocol for your site, e.
 baseurl: "" # the subpath of your site, e.g. /blog
 title: Kaman Phamdo
 description: "Student at University of Maryland"
-keywords: 'jekyll,theme,gem-based,blog'
+keywords: 'kaman, phamdo, university of maryland, software engineer, computer science, math'
 author:
   name: Kaman Phamdo
   job_title: Software Engineer
@@ -33,7 +33,7 @@ author:
   email: kaman@phamdo.com
   social_links:
     - name: linkedin
-      url: https://linkedin.com/kphamdo
+      url: https://linkedin.com/in/kphamdo
     - name: github
       url: https://github.com/phamdo
     - name: instagram
@@ -48,14 +48,15 @@ author:
       url:
 home:
   section1: <h1>Kaman Phamdo</h1>
-  section2: <h3>Student at University of Maryland </h3>
-  section3: <div class="social-links">
-              <a class="ico-rss btn" href="https://github.com/" title="Blog"></a>
-              <a class="ico-gmail btn" href="https://github.com/phamdo" title="Email"></a>
+  section2:  
+      <p>I am currently a fourth-year student at University of Maryland studying Computer Science and Math. On campus, I am an undergraduate researcher and teaching assistant in the computer science department. Previously, I was an intern at JHU/APL and JPMC. I will insert more information about my bio here.</p>
+  section3: <img src = "assets/images/profile-pic.png" width="300" height="300">
+  section4: <div class="social-links">
+      <a class="ico-rss btn" href="https://phamdo.github.io/blog" rel="me" target="_blank" title="Blog"></a>
+              <a class="ico-gmail btn" href="mailto:kaman@phamdo.com" title="Email"></a>
               <a class="ico-linkedin btn" href="https://linkedin.com/in/kphamdo" title="LinkedIn"></a>
               <a class="ico-github btn" href="https://github.com/phamdo" title="GitHub"></a>
             </div>
-  #section4: <h1> Hwllo Rhwww </h1>
 blog:
   cc_license: http://creativecommons.org/licenses/by-sa/4.0/ # A link to CC License of your choice.
   cc_license_image: /assets/images/theme/cc-by-sa.png # An image of your CC License. 

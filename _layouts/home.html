@@ -10,6 +10,7 @@
 <head>
     {% include common/meta.html %}
     <link href='{{ site.baseurl }}/assets/stylesheets/home.css' rel="stylesheet" type="text/css">
+    <link href='{{ site.baseurl }}/assets/stylesheets/extra.css' rel="stylesheet" type="text/css">
     {% include common/libraries.html %}
 </head>
 
@@ -27,6 +28,8 @@
             {% if site.home.section1 %}{{ site.home.section1 }}{% endif %}
             {% if site.home.section2 %}{{ site.home.section2 }}{% endif %}
             {% if site.home.section3 %}{{ site.home.section3 }}{% endif %}
+            {% if site.home.section4 %}{{ site.home.section4 }}{% endif %}
+            {% if site.home.section5 %}{{ site.home.section5 }}{% endif %}
         </div>
         <a class="btn-continue animated bounce" title="{{ site.data.i18n[site.lang].more }}" href="#social"></a>
     </div>

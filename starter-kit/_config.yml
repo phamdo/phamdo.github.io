@@ -1,4 +1,4 @@
-# Site Settings
+#Site Settings
 encoding: UTF-8
 exclude: ["*.gem", "*.gemspec", "Gemfile", "Gemfile.lock", "node_modules", "Rakefile", "starter-kit", "vendor"]
 lang: en # Language code as defined in _data/i18n.yml. en, en-gb, en-us, zh, zh-cn, zh-tw etc.
@@ -24,19 +24,19 @@ sass:
 # Site Data
 url: # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: # the subpath of your site, e.g. /blog
-title: Simple Texture
+title: Kaman Phamdo
 description: "A gem-based responsive simple texture styled Jekyll theme."
 keywords: 'jekyll,theme,gem-based,blog'
-author:
-  name:
-  job_title:
-  location:
-  email:
+author: Kaman Phamdo
+  name: Kaman Phamdo
+  job_title: Software Engineer
+  location: College Park, Maryland
+  email: kaman@phamdo.com
   social_links:
-    - name: facebook
-      url:
+    - name: linkedin
+      url: https://linkedin.com/in/kphamdo
     - name: github
-      url: https://github.com/yizeng/jekyll-theme-simple-texture
+      url: https://github.com/phamdo
     - name: instagram
       url:
     - name: linkedin
@@ -48,7 +48,7 @@ author:
     - name: vk
       url:
 home:
-  section1: <h1>Simple Texutre</h1>
+  section1: <h1>Simple alsdkfjlkj</h1>
   section2: <h2>A gem-based responsive simple texture styled Jekyll theme</h2>
   section3: <div class="social-links"><a class="ico-github btn" href="https://github.com/yizeng/jekyll-theme-simple-texture" title="View on GitHub"></a></div>
 blog:

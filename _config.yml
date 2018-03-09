@@ -49,7 +49,7 @@ author:
 home:
   section1: <h1>Kaman Phamdo</h1>
   section2:  
-      <p>I am currently a fourth-year student at University of Maryland studying Computer Science and Math. On campus, I am an undergraduate researcher and teaching assistant in the computer science department. Previously, I was an intern at JHU/APL and JPMC. I will insert more information about my bio here.</p>
+      <p>I am currently a fourth-year student at University of Maryland studying Computer Science and Math. On campus, I am an undergraduate researcher and teaching assistant in the computer science department. Previously, I was an intern at JHU Applied Physics Lab and JPMorgan Chase. After graduation, I will be working on research at UCLA's Institute for Pure and Applied Mathematics, and then starting my first "real job" as a software engineer in Pittsburgh, PA. My next goal is to get into grad school. I am passionate about journaling and documenting my experiences, which you can read about on my blog!</p>
   section3: <img src = "assets/images/profile-pic.png" width="300" height="300">
   section4: <div class="social-links">
       <a class="ico-rss btn" href="https://phamdo.github.io/blog" rel="me" target="_blank" title="Blog"></a>

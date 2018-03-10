@@ -3,7 +3,7 @@
 <script>
     $(document).ready(function () {
         $.fn.fullpage({
-            anchors: ['bio', 'social'],
+            anchors: ['home', 'social', 'bio'],
             css3: true,
             fixedElements: '.site-notice',
             menu: '#menu',
@@ -28,7 +28,7 @@
                 }
                 if (index == 2 && direction == 'up') {
                     $('#section1 h1, #section1 .social-links').addClass('hidden').removeClass('fadeInUp');
-                }
+                } 
             }
         });
     });

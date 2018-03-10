@@ -111,8 +111,18 @@
         <a class="btn-continue animated bounce" title="More" href="#bio"></a>
     </div>
 
-    <div id="section2" class "section" data-name="bio">
+    <div id="section0" class="section" data-name="bio">
         <h1> ABOUT ME </h1>
+        <p> I am currently a fourth-year student at University of Maryland
+        studying Computer Science and Math. On campus, I am an undergraduate
+        researcher and teaching assistant in the computer science department.
+        Previously, I was an intern at JHU Applied Physics Lab and JPMorgan
+        Chase. After graduation, I will be working on research at UCLA's
+        Institute for Pure and Applied Mathematics, and then starting my first
+        "real job" as a software engineer in Pittsburgh, PA. My next goal is to
+        get into grad school. I am passionate about journaling and documenting
+        my experiences, which you can read about on my blog!
+        </p>
     </div>
 
     <script src="/assets/javascripts/jquery.fullPage.min.js"></script>
@@ -120,7 +130,7 @@
 <script>
     $(document).ready(function () {
         $.fn.fullpage({
-            anchors: ['bio', 'social'],
+            anchors: ['home', 'social', 'bio'],
             css3: true,
             fixedElements: '.site-notice',
             menu: '#menu',
@@ -145,12 +155,13 @@
                 }
                 if (index == 2 && direction == 'up') {
                     $('#section1 h1, #section1 .social-links').addClass('hidden').removeClass('fadeInUp');
-                }
+                } 
             }
         });
     });
 
 </script>
+
 
 
 </body>

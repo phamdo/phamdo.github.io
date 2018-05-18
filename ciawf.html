@@ -320,7 +320,7 @@ Finally, we do the same for literacy.</p>
 </div>
 <div id="building-a-simple-linear-regression-model" class="section level3">
 <h3><strong>Building a Simple Linear Regression Model</strong></h3>
-<p>We will use the lm() function to build a linear regression model to analyze relationship between expected years in school and unemployment.</p>
+<p>We will use the lm() function to build a <a href="http://www.stat.yale.edu/Courses/1997-98/101/linreg.htm">linear regression model</a> to analyze relationship between expected years in school and unemployment.</p>
 <pre class="r"><code>linear_model1 &lt;- lm(unemployment ~ school_years, data=df)
 linear_model1 %&gt;% broom::tidy()</code></pre>
 <pre><code>##           term    estimate   std.error statistic      p.value
@@ -354,11 +354,11 @@ linear_model4 %&gt;% broom::tidy()</code></pre>
 ## 2 education_exp  0.02530772 0.006690124  3.7828477 0.0002558624
 ## 3  school_years -0.02147346 0.007079611 -3.0331407 0.0030373843
 ## 4      literacy  0.05747574 0.098192330  0.5853383 0.5595526886</code></pre>
-<p>In this case, we would reject the null hypothesis of no relationship for both education expenditures and expected year in school, but not for literacy. We can model this linear relationship as <code>unemployment = 0.226 + 0.025 * education_exp - 0.021 * school_years + 0.057 * literacy</code>.</p>
+<p>In this case, we would reject the null hypothesis of no relationship for both education expenditures and expected year in school, but not for literacy. We can model this linear relationship as: <code>unemployment = 0.226 + 0.025 * education_exp - 0.021 * school_years + 0.057 * literacy</code>.</p>
 </div>
 <div id="unsupervised-machine-learning" class="section level3">
 <h3><strong>Unsupervised Machine Learning</strong></h3>
-<p>Unsupervised machine learning allows us to gain understanding of the structure of our dataset by finding hidden patterns in our data. We will be using an unsupervised method known as “k-means clustering” to see if we can find groups of countries that are similar to each other.<br />
+<p>Unsupervised machine learning allows us to gain understanding of the structure of our dataset by finding hidden patterns in our data. We will be using an unsupervised method known as “<a href="http://stanford.edu/~cpiech/cs221/handouts/kmeans.html">k-means clustering</a>” to see if we can find groups of countries that are similar to each other.<br />
 <br />
 In order to use clustering, we need to define the similarity between two countries in our dataset. The k-means clustering algorithm will use Euclidean distance as a measure to partition the dataset in k clusters of similar objects. For example, we could define similarity based on values for school life expectancy and education expenditure. We need to scale these values before passing them to the k[means algorithm because they are measured in different units. We choose k = 4 to partition into four clusters.</p>
 <pre class="r"><code>set.seed(1234)

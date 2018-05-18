@@ -260,7 +260,7 @@ head(df)[1:5,]</code></pre>
 </div>
 <div id="handling-missing-data" class="section level3">
 <h3><strong>Handling Missing Data</strong></h3>
-<p>As we can see, there are some ‘NA’ values in the dataset. These are the missing values, or data that wasn’t available from the CIA World Factbook. This data isn’t missing at random, as some countries have more data availability than others. Additionally, the factbook contains some regions where none of these values are relevant, such as oceans or islands. The best way to handle these missing values is to simply remove them from our data set. We will remove any rows that do not contain unemployment rates, as well as rows that do not contain any of the 3 data points for education.</p>
+<p>As we can see, there are some ‘NA’ values in the dataset. These are the missing values, or data that wasn’t available from the CIA World Factbook. This data isn’t missing at random, as some countries have more data availability than others. Additionally, the factbook contains some regions where none of these values are relevant, such as oceans or islands. The best way to handle these missing values is to simply remove them from our data set. When data is missing at random, there are more sophisticated ways of handling missing data, such as imputation. If you are interested, you can read more <a href="https://towardsdatascience.com/how-to-handle-missing-data-8646b18db0d4">here</a>. We will remove any rows that do not contain unemployment rates, as well as rows that do not contain any of the 3 data points for education.</p>
 <pre class="r"><code>df &lt;- df[!is.na(df$unemployment),]
 df &lt;- df[!is.na(df$literacy) | !is.na(df$school_years) |  !is.na(df$education_exp),]
 head(df)[1:4,]</code></pre>

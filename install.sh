@@ -1,7 +1,7 @@
 #!/usr/bin/env /bin/bash
 set -e # halt script on error
 
-cd _sass/
+cd source/_sass/
 bourbon install
 cd ../../
 

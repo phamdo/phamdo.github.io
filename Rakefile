@@ -8,7 +8,7 @@ require "jekyll"
 GITHUB_REPONAME = "nandomoreirame/end2end"
 GITHUB_REPO_BRANCH = "gh-pages"
 
-SOURCE = "./"
+SOURCE = "source/"
 DEST = "_site"
 CONFIG = {
   'layouts' => File.join(SOURCE, "_layouts"),

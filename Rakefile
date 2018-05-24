@@ -7,7 +7,7 @@ require "bourbon"
 
 # Change your GitHub reponame
 GITHUB_REPONAME = "phamdo/phamdo.github.io"
-GITHUB_REPO_BRANCH = "gh-pages"
+GITHUB_REPO_BRANCH = "master"
 
 SOURCE = "source/"
 DEST = "_site"

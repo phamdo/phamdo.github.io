@@ -3,10 +3,10 @@
   <channel>
     <title>Kaman Phamdo</title>
     <description></description>
-    <link>http://localhost:4000/home/</link>
-    <atom:link href="http://localhost:4000/home/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 23 May 2018 18:02:11 -0400</pubDate>
-    <lastBuildDate>Wed, 23 May 2018 18:02:11 -0400</lastBuildDate>
+    <link>http://phamdo.github.io//home/</link>
+    <atom:link href="http://phamdo.github.io//home/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 23 May 2018 21:29:35 -0400</pubDate>
+    <lastBuildDate>Wed, 23 May 2018 21:29:35 -0400</lastBuildDate>
     <generator>Jekyll v3.5.1</generator>
     
       <item>
@@ -90,8 +90,8 @@ I had so much fun and I can't wait for my next adventure! &lt;/p&gt;
 
 </description>
         <pubDate>Thu, 22 Mar 2018 09:46:52 -0400</pubDate>
-        <link>http://localhost:4000/home/blog/2018/seattle/</link>
-        <guid isPermaLink="true">http://localhost:4000/home/blog/2018/seattle/</guid>
+        <link>http://phamdo.github.io//home/blog/2018/seattle/</link>
+        <guid isPermaLink="true">http://phamdo.github.io//home/blog/2018/seattle/</guid>
         
         
         <category>travel</category>

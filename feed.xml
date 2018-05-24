@@ -3,10 +3,10 @@
   <channel>
     <title>Kaman Phamdo</title>
     <description></description>
-    <link>http://localhost:4000/home/</link>
-    <atom:link href="http://localhost:4000/home/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 24 May 2018 00:21:42 -0400</pubDate>
-    <lastBuildDate>Thu, 24 May 2018 00:21:42 -0400</lastBuildDate>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 24 May 2018 00:39:26 -0400</pubDate>
+    <lastBuildDate>Thu, 24 May 2018 00:39:26 -0400</lastBuildDate>
     <generator>Jekyll v3.5.1</generator>
     
       <item>
@@ -20,7 +20,7 @@ to eat at the rotating restaurant, it was really cool to see the Space Needle
 during a significant time in its history. The view of the city from the 
 observation deck definitely did not disappoint.&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/home/images/2018-03-22/needle-view.jpg&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/2018-03-22/needle-view.jpg&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt; Next, we visited the Chihuly Garden and Glass museum. This was most likely
 my favorite attraction included in the Seattle City Pass. Chihuly was
@@ -28,30 +28,30 @@ a prolific artist, and we were able to see a lot of his work throughout the
 city. I was extremely impressed by the glass blowing demonstration, where we
 observed the entire process of creating a glass bowl. 
 &lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/home/images/2018-03-22/glass.jpg&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/2018-03-22/glass.jpg&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt; The next day, we went to the Seattle Aquarium. It was nothing new for me
 since I had been there before, but I did enjoy seeing the cute sea otters. 
 &lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/home/images/2018-03-22/wheel.jpg&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/2018-03-22/wheel.jpg&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt; Afterward, we decided to take a ride on the Great Wheel. It seemed a little
 pricey at first, but we ended up getting about 4-5 spins. I think it was worth
 it!&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/home/images/2018-03-22/wheel-selfie.jpg&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/2018-03-22/wheel-selfie.jpg&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt; It was quite romantic, and we were able to enjoy some beautiful views of
 the city skyline and the waterfront. &lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/home/images/2018-03-22/wheel-view.jpg&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/2018-03-22/wheel-view.jpg&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt; We also went on the Argosy Harbor Cruise. This was the perfect activity to
 take a break after a long day of walking and get a lot of cool photos of
 Seattle from the water. &lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/home/images/2018-03-22/boat-view.jpg&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/2018-03-22/boat-view.jpg&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt; Of course, we had to visit Pike Place Market and try bunch of different
 foods. I had the famous New England Clam Chowder and Jake had his first char
@@ -63,13 +63,13 @@ an impressive zoo with a lot of animals. I also learned a fun fact: adult pengui
 have a stripe on their neck, while chicks do not!
 &lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/home/images/2018-03-22/zoo.jpg&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/2018-03-22/zoo.jpg&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt; That afternoon, we went to the Seattle Japanese Garden. It was really pretty
 and the weather was absolutely gorgeous, which was surprising considering the snow
 storms going on back home. &lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/home/images/2018-03-22/garden.jpg&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/2018-03-22/garden.jpg&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt; I think one of the biggest highlights of our trip was eating dinner at Din
 Tai Fung. They are famous for their delicious soup dumplings (xiao long bao),
@@ -90,8 +90,8 @@ I had so much fun and I can't wait for my next adventure! &lt;/p&gt;
 
 </description>
         <pubDate>Thu, 22 Mar 2018 09:46:52 -0400</pubDate>
-        <link>http://localhost:4000/home/blog/2018/seattle/</link>
-        <guid isPermaLink="true">http://localhost:4000/home/blog/2018/seattle/</guid>
+        <link>http://localhost:4000/blog/2018/seattle/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2018/seattle/</guid>
         
         
         <category>travel</category>

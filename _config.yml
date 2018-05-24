@@ -8,10 +8,10 @@ paginate: 3
 paginate_path: "/blog/page/:num/"
 comments: true
 
-#source: source
+source: ./
 destination: _site
 sass:
-  sass_dir: _sass
+  sass_dir: ./_sass
   style: compressed # expanded
 
 # SEO settings

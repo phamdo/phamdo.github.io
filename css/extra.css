@@ -1,0 +1,39 @@
+#thumbnail {
+    border-radius: 8px;
+    height: 200px;
+    width: 300px;
+    overflow: hidden;
+}
+
+#book{
+    height: 200px;
+    width: 100px;
+    float: left;
+    padding: 10px;
+    overflow: hidden;
+}
+
+#booktitle{
+    font-size: 22px;
+}
+
+.button1 {
+    border-radius: 8px;
+    border: 2px solid #B46863;
+    padding: 10px 15px;
+    width: 100px;
+    text-align: center;
+    font-weight: bold;
+    color: #B46863;
+}
+
+.button1:hover {
+    /*background-color: #f2ab8b;
+    */
+    background-color: #E68E73;
+    color: #B46863;
+}
+
+.button1:active {
+    color: #B46863;
+}
